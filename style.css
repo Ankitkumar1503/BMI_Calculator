@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+
+}
+nav a[aria-current='page'] {
+    color: #000;
+    background-color: #d4d4d4;
+}
+
+nav a {
+    display: inline-block;
+    min-width: 9rem;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    border: solid 1px rgb(22, 22, 22);
+    text-align: center;
+    text-decoration: none;
+    color: #1b1b1b;
+}
+
+.container {
+  margin-left: 440px;
+    width: 575px;
+    height: 825px;
+    background: linear-gradient(135deg, #00feba, #5b5a8a);
+    padding-left: 30px;
+  }
+
+  .container p label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400px;
+  }
+
+  .container p input{
+    margin-left: 10px;
+  }
+
+  .container .form input{
+  }
+  #height,
+  #weight { 
+    outline: none;
+    width: 150px;
+    height: 25px;
+    margin-top: 30px;
+    background-color: transparent;
+  }
+  
+  #weight-guide {
+    margin-left: 75px;
+    margin-top: 25px;
+  }
+  
+  #results {
+    font-size: 35px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: rgb(241, 241, 241);
+  }
+  
+  button {
+    width: 150px;
+    height: 35px;
+    margin-left: 90px;
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 1px 30px;
+    border-radius: 8px;
+    color: #212121;
+    text-decoration: none;
+    border: 2px solid #212121;
+    outline: none;
+  
+    font-size: 25px;
+  }
+  
+  h1 {
+    padding-left: 15px;
+    padding-top: 25px;
+    
+  }
